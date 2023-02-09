@@ -45,6 +45,7 @@ header ul {
 header li {
     width: 20%;
     display: inline-flex;
+    align-items: center;
     text-align: center;
     list-style-type: none;
     font-family: 'DM Sans';
