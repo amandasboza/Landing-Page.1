@@ -158,3 +158,11 @@ button {
     margin: 415px auto auto 30px;
     position: absolute;
 }
+
+p {
+    color: white;
+    position: absolute;
+    font-size: 16px;
+    justify-content: baseline;
+    margin: 375px auto auto 120px;
+}
