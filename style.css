@@ -5,7 +5,7 @@
 
 body {
     width: 1634px;
-    height: 1178px;
+    height: 870px;
     background-color: #E3CDCD;
     position: relative;
     margin: 0;
@@ -14,7 +14,7 @@ body {
 main {
     background-color: white;
     width: 1740px;
-    height: 1124px;
+    height: 824px;
     margin-top: 60px;
     margin-left: 77px;
     border-radius: 10px;
@@ -22,31 +22,31 @@ main {
 
 header {
     width: 95%;
-    height: 100px;
+    height: 95px;
     display: flex;
-    padding: 58px 0 0 68px;
+    padding: 28px 0 0 68px;
 }
 
 header img {
     width: 99px;
-    height: 78px;
+    height: 58px;
     position: absolute;
 
 }
 
 header ul {
-    width: 894px;
+    width: 754px;
     display: inline-flex;
     list-style-type: none;
-    padding-left: 140px;
+    padding-left: 90px;
 }
 
 header li {
     width: 1214px;
     display: block;
     text-align: center;
-    line-height: 100px;
-    font-size: 24px;
+    line-height: 80px;
+    font-size: 18px;
 }
 
 button {
@@ -54,25 +54,23 @@ button {
 }
 
 #cast {
-    margin-left: 200px;
-    padding: 0;
-
+    margin-left: 435px;
+    padding-bottom: 15px;
 }
 
 #log {
     width: 150px;
     height: 100%;
-    font-size: 24px ;
+    font-size: 18px ;
     background-color: white;
     border-style: none;
     
 }
 
 #start {
-    width: 180px;
+    width: 150px;
     height: 40%;
-    font-size: 24px ;
-    margin-left: 25px;
+    font-size: 18px ;
     background-color: black;
     color: white;
     border-color: black;
@@ -83,86 +81,162 @@ button {
 #content {
     display: flex;
     padding: 70px;
+    padding-top: 10px;
     gap: 110px;
 }
 
 #box {
-        background-color: rgba(128, 128, 128, 0.194);
-        width: 898px;
-        height: 788px;
-        border-radius: 25px;
-}
+    background-color: rgba(128, 128, 128, 0.194);
+    width: 898px;
+    height: 608px;
+    border-radius: 25px;
 
-#calling {
-    background-color: pink;
-    width: 584px;
-    height: 788px;
+    display: flex;
+    flex-direction: column;
 }
 
 #box-w {
     display: flex;
     position:relative;
-    font-size: 25px;
+    font-size: 18px;
     letter-spacing: 3px;
-    padding: 20px;
-    padding-left: 40px;
-    margin: 20px auto auto 5px;
+    padding: 25px 20px 20px 40px;
+    margin: 5px;
     gap: 50px;
+}
+
+#box-w img {
+    width: 70px;
 }
 
 #box-w ul {
     list-style-type: none;
     display: flex;
-    margin-left: 20px;
-    gap: 55px;
+    margin-left: 10px;
+    gap: 60px;
     padding-inline-start: 0;
     padding-top: 4px;
 }
 
 #chat-s {
-    display: flex;
+    display: flex;  
+    flex-direction: row;
     width: 100%;
+    height: 70%;
 }
 
 
 #chat-a {
-    width: 50%;
-    height: 65%;
-    background-color: rgb(160, 137, 140);
+    width: 100%;
+    height: 415px;
 }
 
 #chat-b {
-    width: 50%;
-    height: 65%;
-    background-color: pink;
+    width: 100%;
+    height: 530px;
 }
 
 #back-w {
     position: absolute;
     padding: 120px;
-    padding-top: 60px;
+    padding-top: 20px;
 }
 
 #back-y {
-    position: absolute;
+    position:absolute;
     padding: 100px;
-    padding-top: 120px ;
+    padding-top: 60px ;
 }
 
 #blackbox {
-    margin: 350px auto auto 100px;
+    margin: 310px auto auto 100px;
     position: absolute;
 }
 
 #bluebox {
-    margin: 415px auto auto 30px;
+    margin: 350px auto auto 45px;
     position: absolute;
 }
 
-p {
+#chat-s p {
     color: white;
     position: absolute;
     font-size: 16px;
     justify-content: baseline;
-    margin: 375px auto auto 120px;
+    margin: 335px auto auto 120px;
+}
+
+#chat-b p {
+   margin: 375px auto auto 70px;
+}
+
+#up-list {
+    object-position: 50%;
+    display: flex;
+    gap: 10px;
+    margin: 5px 0 5px 60px;
+
+    list-style-type: none;
+}
+
+#up-list img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+#calling {
+    width: 584px;
+    height: 608px;
+
+}
+
+#call-w-a {
+    font-size: 46px;
+}
+
+#call-w-a p {
+    font-size: 22px;
+    padding: 35px 0;
+}
+
+#trial {
+    width: 196px;
+    height: 64px;
+    margin-top: 35px;
+
+    border-style: none;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    font-size: 26px;
+}
+
+#demo {
+    width: 216px;
+    height: 64px;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+
+    border-color: black;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    font-size: 26px;
+}
+
+#demo img {
+    width: 35px;
+    padding: 10px 5px;
+}
+
+#demo p {
+    padding: 10px 5px;
+}
+
+#but-a-y {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
 }
